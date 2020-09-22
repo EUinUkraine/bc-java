@@ -28,7 +28,9 @@ public class DefaultAlgorithmNameFinder
     static
     {
     	algorithms.put(UAObjectIdentifiers.dstu4145be, "GOST3411WITHDSTU4145");
-    	
+        algorithms.put(UAObjectIdentifiers.gost34311, "GOST34311");
+
+
         algorithms.put(BSIObjectIdentifiers.ecdsa_plain_RIPEMD160, "RIPEMD160WITHPLAIN-ECDSA");
         algorithms.put(BSIObjectIdentifiers.ecdsa_plain_SHA1, "SHA1WITHPLAIN-ECDSA");
         algorithms.put(BSIObjectIdentifiers.ecdsa_plain_SHA224, "SHA224WITHPLAIN-ECDSA");

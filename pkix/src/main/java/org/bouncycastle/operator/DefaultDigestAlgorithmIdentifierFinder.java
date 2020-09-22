@@ -39,6 +39,7 @@ public class DefaultDigestAlgorithmIdentifierFinder
         digestOids.put(OIWObjectIdentifiers.sha1WithRSA, OIWObjectIdentifiers.idSHA1);
 
 digestOids.put(UAObjectIdentifiers.dstu4145WithGost34311le, UAObjectIdentifiers.gost34311);
+
 digestOids.put(UAObjectIdentifiers.dstu4145le, UAObjectIdentifiers.gost34311);
 //  
         

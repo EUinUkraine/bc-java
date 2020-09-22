@@ -34,7 +34,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'org.bouncycastle'
             artifactId = 'bcprov-jdk15on'
-            version = '1.66'
+            version = '1.69.4'
 
             from components.java
         }

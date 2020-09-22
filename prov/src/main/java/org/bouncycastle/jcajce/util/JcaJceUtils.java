@@ -11,6 +11,7 @@ import org.bouncycastle.asn1.nist.NISTObjectIdentifiers;
 import org.bouncycastle.asn1.oiw.OIWObjectIdentifiers;
 import org.bouncycastle.asn1.pkcs.PKCSObjectIdentifiers;
 import org.bouncycastle.asn1.teletrust.TeleTrusTObjectIdentifiers;
+import org.bouncycastle.asn1.ua.UAObjectIdentifiers;
 
 /**
  * General JCA/JCE utility methods.
@@ -118,6 +119,10 @@ public class JcaJceUtils
         else if (CryptoProObjectIdentifiers.gostR3411.equals(digestAlgOID))
         {
             return "GOST3411";
+        }
+        else if (UAObjectIdentifiers.gost34311.equals(digestAlgOID))
+        {
+            return "GOST34311";
         }
         else
         {

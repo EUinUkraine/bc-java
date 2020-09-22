@@ -12,6 +12,7 @@ import org.bouncycastle.asn1.nist.NISTObjectIdentifiers;
 import org.bouncycastle.asn1.oiw.OIWObjectIdentifiers;
 import org.bouncycastle.asn1.pkcs.PKCSObjectIdentifiers;
 import org.bouncycastle.asn1.teletrust.TeleTrusTObjectIdentifiers;
+import org.bouncycastle.asn1.ua.UAObjectIdentifiers;
 
 public class MessageDigestUtils
 {
@@ -33,6 +34,7 @@ public class MessageDigestUtils
         digestOidMap.put(ISOIECObjectIdentifiers.ripemd128, "RIPEMD-128");
         digestOidMap.put(ISOIECObjectIdentifiers.ripemd160, "RIPEMD-160");
         digestOidMap.put(CryptoProObjectIdentifiers.gostR3411, "GOST3411");
+        digestOidMap.put(UAObjectIdentifiers.gost34311, "GOST34311");
         digestOidMap.put(GNUObjectIdentifiers.Tiger_192, "Tiger");
         digestOidMap.put(ISOIECObjectIdentifiers.whirlpool, "Whirlpool");
         digestOidMap.put(NISTObjectIdentifiers.id_sha3_224, "SHA3-224");
