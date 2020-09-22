@@ -1,3 +1,7 @@
+plugins {
+    id 'maven-publish'
+}
+
 dependencies {
     compile project(':core')
 }
@@ -21,5 +25,19 @@ artifacts {
     archives jar
     archives javadocJar
     archives sourcesJar
+}
+
+
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'org.bouncycastle'
+            artifactId = 'bcprov-jdk15on'
+            version = '1.66'
+
+            from components.java
+        }
+    }
 }
 
