@@ -1,0 +1,16 @@
+plugins {
+    id 'maven-publish'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'bc-java'
+            artifactId = 'core'
+            version = '1.66'
+
+            from components.java
+        }
+    }
+}
+
