@@ -7,7 +7,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'bc-java'
             artifactId = 'core'
-            version = '1.69.4'
+            version = '1.69.5'
 
             from components.java
         }

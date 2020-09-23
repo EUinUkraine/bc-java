@@ -50,6 +50,8 @@ public class DefaultSignatureAlgorithmIdentifierFinder
     	algorithms.put("DSTU4145", UAObjectIdentifiers.dstu4145le);
     	algorithms.put("DSTU4145BE", UAObjectIdentifiers.dstu4145be);
       	algorithms.put("GOST34311WITHDSTU4145", UAObjectIdentifiers.dstu4145WithGost34311le);
+        algorithms.put("1.2.804.2.1.1.1.1.2.1WITH1.2.804.2.1.1.1.1.3.1.1", UAObjectIdentifiers.dstu4145WithGost34311le);
+
        	algorithms.put("GOST34311", UAObjectIdentifiers.gost34311);
        	
         algorithms.put("MD2WITHRSAENCRYPTION", PKCSObjectIdentifiers.md2WithRSAEncryption);

@@ -88,6 +88,7 @@ class X509Util
         algorithms.put("GOST3411WITHECGOST3410-2001", CryptoProObjectIdentifiers.gostR3411_94_with_gostR3410_2001);
         algorithms.put("GOST3411WITHGOST3410-2001", CryptoProObjectIdentifiers.gostR3411_94_with_gostR3410_2001);
         algorithms.put("GOST34311WITHDSTU4145", UAObjectIdentifiers.dstu4145WithGost34311le);
+        algorithms.put("1.2.804.2.1.1.1.1.2.1WITH1.2.804.2.1.1.1.1.3.1.1", UAObjectIdentifiers.dstu4145WithGost34311le);
 
         //
         // According to RFC 3279, the ASN.1 encoding SHALL (id-dsa-with-sha1) or MUST (ecdsa-with-SHA*) omit the parameters field. 
